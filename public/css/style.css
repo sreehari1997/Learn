@@ -2,7 +2,7 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  
+
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -29,13 +29,21 @@ body {
 .footer {
   padding-top: 19px;
   color: #777;
+
   border-top: 1px solid #ffffff;
+
+  border-top: 1px solid #e5e5e5;
+
 }
 
 /* Customize container */
 @media (min-width: 768px) {
   .container {
+
     max-width: 1000px;
+
+    max-width: 730px;
+
   }
 }
 .container-narrow > hr {
