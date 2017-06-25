@@ -3,7 +3,7 @@ in order, they set the top, left and right, and bottom sizes.
 You will see this format used in a few more places. */
 
 body {
-   background: #0c77f8;
+   /*background: #0c77f8;*/
   font-family: "Roboto", helvetica, sans-serif;
   padding: 60px 0 0;
   margin: 0;
