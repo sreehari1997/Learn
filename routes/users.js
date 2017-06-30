@@ -4,10 +4,15 @@ var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 
 var User = require('../models/user');
-
+router.get('/tos', function(req, res){
+	res.render('tos');
+});
 // Register
 router.get('/register', function(req, res){
 	res.render('register');
+});
+router.get('/learn', function(req, res){
+	res.render('learn');
 });
 
 // Login
